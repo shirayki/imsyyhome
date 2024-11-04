@@ -8,6 +8,13 @@
             <el-radio value="1" size="large" border>每日一图</el-radio>
             <el-radio value="2" size="large" border>随机风景</el-radio>
             <el-radio value="3" size="large" border>随机动漫</el-radio>
+            <el-radio value="4" size="large" border>二次元自适应</el-radio>
+<el-radio value="5" size="large" border>萌版自适应</el-radio>
+<el-radio value="6" size="large" border>PC横版</el-radio>
+<el-radio value="7" size="large" border>萌版横图</el-radio>
+<el-radio value="8" size="large" border>风景横图</el-radio>
+<el-radio value="9" size="large" border>原神横图</el-radio>
+
           </el-radio-group>
         </div>
       </el-collapse-item>
