@@ -9,7 +9,8 @@
             -
           </span>
           {{ fullYear }}
-          <a :href="siteUrl" style="color: #b5caa0">{{ siteAnthor }}</a>
+          <span class="made-by"> Made by</span>
+          {{ siteAnthor }}
         </span>
         <!-- 站点备案 -->
         &amp;
@@ -104,6 +105,13 @@ const siteUrl = computed(() => {
   .fade-enter-active,
   .fade-leave-active {
     transition: opacity 0.15s ease-in-out;
+  }
+
+  /* 新增样式：为 "Made by" 设置不同的颜色 */
+  .made-by {
+    color: #f596aa; /* 你可以根据需要调整颜色 */
+    margin-left: 8px;
+    margin-right: 4px;
   }
 
   @media (max-width: 720px) {
