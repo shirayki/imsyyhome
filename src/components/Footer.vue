@@ -11,15 +11,6 @@
           {{ fullYear }}
           <a :href="siteUrl" style="color: #b5caa0">{{ siteAnthor }}</a>
         </span>
-        <!-- 以下信息请不要修改哦 -->
-        <span class="hidden">
-          &amp;
-          <span style="color: #f596aa">Made&nbsp;</span>
-          <span style="color: #fad689">by&nbsp;</span>
-          <a :href="config.github" target="_blank" style="color: #7db9de">
-            {{ config.author }}
-          </a>
-        </span>
         <!-- 站点备案 -->
         &amp;
         <a v-if="siteIcp" href="https://icp.gov.moe/" target="_blank" style="color: #b28fce">
@@ -43,7 +34,6 @@
 import { ref, computed } from 'vue';
 import { MusicOne } from "@icon-park/vue-next";
 import { mainStore } from "@/store";
-import config from "@/../package.json";
 
 const store = mainStore();
 const fullYear = new Date().getFullYear();
