@@ -9,8 +9,8 @@
             -
           </span>
           {{ fullYear }}
-          <span class="made-by"> Made by</span>
-          {{ siteAnthor }}
+          <span class="made-by">Made by </span>
+          <span class="site-anthor">{{ siteAnthor }}</span>
         </span>
         <!-- 站点备案 -->
         &amp;
@@ -43,15 +43,6 @@ const fullYear = new Date().getFullYear();
 const siteStartDate = ref(import.meta.env.VITE_SITE_START);
 const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
 const siteAnthor = ref(import.meta.env.VITE_SITE_ANHOR || 'Faker');
-const siteUrl = computed(() => {
-  const url = import.meta.env.VITE_SITE_URL;
-  if (!url) return "https://faker.zapto.org/";
-  // 判断协议前缀
-  if (!url.startsWith("http://") && !url.startsWith("https://")) {
-    return "//" + url;
-  }
-  return url;
-});
 </script>
 
 <style lang="scss" scoped>
@@ -112,6 +103,11 @@ const siteUrl = computed(() => {
     color: #f596aa; /* 你可以根据需要调整颜色 */
     margin-left: 8px;
     margin-right: 4px;
+  }
+
+  /* 新增样式：为 "Faker" 设置不同的颜色 */
+  .site-anthor {
+    color: #7db9de; /* 你可以根据需要调整颜色 */
   }
 
   @media (max-width: 720px) {
