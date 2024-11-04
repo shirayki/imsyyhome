@@ -14,6 +14,57 @@
     "name": "音乐",
     "link": "https://music.youtube.com/"
   },
+  
+  {
+  "icon": "Crack",
+  "name": "破解网站",
+  "link": "https://www.ghxi.com/"
+},
+{
+  "icon": "Search",
+  "name": "搜索引擎",
+  "link": "https://felo.ai/search"
+},
+{
+  "icon": "Image",
+  "name": "插画壁纸",
+  "link": "https://www.pixiv.net/ranking.php"
+},
+{
+  "icon": "Cloud",
+  "name": "云盘分享",
+  "link": "https://obour-my.sharepoint.com/:f:/g/personal/dr_nashaat_oi_edu_eg/EpGdYrw5qqVKnGJwk111WTgBzvVgHJSuE64C4pK8qIj-gw"
+},
+{
+  "icon": "Email",
+  "name": "临时邮箱",
+  "link": "https://temp.firefly1314.filegear-sg.me/user"
+},
+{
+  "icon": "IP",
+  "name": "IP查询",
+  "link": "https://www.itdog.cn/"
+},
+{
+  "icon": "Animation",
+  "name": "次元城动画",
+  "link": "https://www.cycanime.com/"
+},
+{
+  "icon": "Sakura",
+  "name": "樱花动漫",
+  "link": "https://www.yinhuadm.cc/"
+},
+{
+  "icon": "Video",
+  "name": "低端影视",
+  "link": "https://ddys.one/"
+},
+{
+  "icon": "Resources",
+  "name": "厂长资源",
+  "link": "https://www.czzyvideo.com/"
+},
   {
     "icon": "Compass",
     "name": "起始页",
@@ -23,15 +74,6 @@
     "icon": "Book",
     "name": "思维导图",
     "link": "https://mind.xing-ye.top/#/"
-  },
-  {
-    "icon": "Fire",
-    "name": "今日热榜",
-    "link": "https://hot.imsyy.top/"
-  },
-  {
-    "icon": "LaptopCode",
-    "name": "站点监测",
-    "link": "https://status.imsyy.top/"
   }
+
 ]
