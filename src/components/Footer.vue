@@ -9,7 +9,7 @@
             -
           </span>
           {{ fullYear }}
-          <a :href="siteUrl" style="color: #b5caa0">{{ siteAnthor }}</a>
+          <a :href="" style="color: #b5caa0">{{ siteAnthor }}</a>
         </span>
         <!-- 以下信息请不要修改哦 -->
         <span class="hidden">
