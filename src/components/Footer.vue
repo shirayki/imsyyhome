@@ -40,6 +40,7 @@
 </template>
 
 <script setup>
+import { ref, computed } from 'vue';
 import { MusicOne } from "@icon-park/vue-next";
 import { mainStore } from "@/store";
 import config from "@/../package.json";
@@ -50,10 +51,10 @@ const fullYear = new Date().getFullYear();
 // 加载配置数据
 const siteStartDate = ref(import.meta.env.VITE_SITE_START);
 const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
-const siteAnthor = ref(import.meta.env.VITE_SITE_ANTHOR);
+const siteAnthor = ref(import.meta.env.VITE_SITE_ANHOR || 'Faker');
 const siteUrl = computed(() => {
   const url = import.meta.env.VITE_SITE_URL;
-  if (!url) return "https://www.imsyy.top";
+  if (!url) return "https://faker.zapto.org/";
   // 判断协议前缀
   if (!url.startsWith("http://") && !url.startsWith("https://")) {
     return "//" + url;
