@@ -46,7 +46,25 @@ const changeBg = (type) => {
     bgUrl.value = "https://api.vvhan.com/api/wallpaper/views";
   } else if (type == 3) {
     bgUrl.value = "https://api.vvhan.com/api/wallpaper/acg";
+  } else if (type == 4) {
+    bgUrl.value = "https://t.alcy.cc/ycy";
   }
+else if (type == 5) {
+    bgUrl.value = "https://t.alcy.cc/moez";
+  }
+else if (type == 6) {
+    bgUrl.value = "https://t.alcy.cc/pc";
+  }
+else if (type == 7) {
+    bgUrl.value = "https://t.alcy.cc/moe";
+  }
+else if (type == 8) {
+    bgUrl.value = "https://t.alcy.cc/fj";
+  }
+else if (type == 9) {
+    bgUrl.value = "https://t.alcy.cc/ys";
+  }
+
 };
 
 // 图片加载完成
